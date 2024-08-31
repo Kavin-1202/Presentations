@@ -1,0 +1,13 @@
+package com.ust.docker_jenkin_springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DockerJenkinSpringbootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DockerJenkinSpringbootApplication.class, args);
+	}
+
+}
